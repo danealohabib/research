@@ -26,7 +26,7 @@ Output: Final data set is called "data_process" (attached to repo)
 
 ## NLP - python
 
-Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't working.
+Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook working. Just copy the url of the python notebook and paste it in nbviewer.
 
 "CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled "data_process" to completely replicate
 
