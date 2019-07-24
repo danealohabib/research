@@ -22,7 +22,7 @@ All of the data wrangling is done in R. Everything is documented.
 
 Script: data_processing_v1
 
-Output: Final data set is called "data_process" (attached to repo)
+Output: Final data set is called "data_process"
 
 ## NLP - python
 
