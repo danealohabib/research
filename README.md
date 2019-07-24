@@ -16,12 +16,20 @@ Example code to run the file: python convert_to_csv.py --input paper_titles
 
 Joined all of the csv files into one large dataframe that contains all of the paper titles. This was done using the R script called "join_titles_R". Outcome: creates a data set called "joined_titles".
 
-# Processing
+## Data Processing
 
-The rest of the data processing is done in R
+All of the data wrangling is done in R. Everything is documented.
 
-# NLP - python
+Script: data_processing_v1
 
-the script called "CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script.
+Output: Final data set is called "data_process" (attached to repo)
 
-the script called "Cog_Preprocessing_Inspection_I.ipynb" is an earlier 
+## NLP - python
+
+Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't working.
+
+"CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled "data_process" to completely replicate
+
+"Cog_Preprocessing_Inspection_I.ipynb" is an earlier version. The data used for this analysis has some minor data quality issues. Use "data_processed" to completely replicate if you wish.
+
+Everything in the notebook is documented
