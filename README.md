@@ -15,8 +15,6 @@ Example code to run the file: python convert_to_csv.py --input paper_titles
 
 Joined all of the csv files into one large dataframe that contains all of the paper titles. This was done using the purr package in R. This script is titled "join_titles_R". Outcome: creates a data set called "joined_titles".
 
-I initially attempted to do this with a python script. I think is was causing the data quaility issue. 
-
 ## Data Processing
 
 All of the data wrangling is done in R. Everything is documented.
