@@ -23,12 +23,19 @@ Script: data_processing_v1
 
 Output: Final data set is called "data_process"
 
-## NLP - python
+## Python Notebooks
 
-Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook (version two of the final notebook isn't rendering). Just copy the url of the python notebook and paste it in nbviewer.
+Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
 
 "CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate
 
 "Cog_Preprocessing_Inspection_I.ipynb" is an earlier version. The data used for this analysis has some minor data quality issues. Use "data_processed" to completely replicate if you wish.
 
 Everything in the notebook is documented
+
+### NLP Extension
+
+"CogExt_II__Using_SpacyForPhraseSeparation.ipynb" - Completed further analysis - exploring noun chunks using Spacy (python package)
+
+Turned each title into a group of "noun chunks" and then counts the unique ones in each year. For example "The Study" is likely to be repetitive, and so should be collapsed, it is also likely to occur in each year. Note that I did this before removing the stop-words, because stopwords communicate information about phrase boundaries.
+
