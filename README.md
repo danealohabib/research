@@ -33,9 +33,14 @@ Replicating figure 2 and 7 from the paper. Use [nbviewer](https://nbviewer.jupyt
 
 Everything in the notebook is documented
 
+####
+
+The folder called "pic" has all of the figures in a png format.
+
 ### NLP Extension
 
 "CogExt_II__Using_SpacyForPhraseSeparation.ipynb" - Completed further analysis - exploring noun chunks using Spacy (python package)
 
 Turned each title into a group of "noun chunks" and then counts the unique ones in each year. For example "The Study" is likely to be repetitive, and so should be collapsed, it is also likely to occur in each year. Note that I did this before removing the stop-words, because stopwords communicate information about phrase boundaries.
+
 
