@@ -25,6 +25,8 @@ Output: Final data set is called "data_process"
 
 ## Python Notebooks
 
+### Strict Replication
+
 Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
 
 "CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate
