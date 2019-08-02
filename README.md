@@ -1,6 +1,4 @@
-# NLP - Biomed titles 1946 - 2012 
-
-replicating figure 2 and 7 from the attached paper
+# Biomed titles 1946 - 2012 
 
 First some prelimary scripts you have to run to get the data in order. These are listed below.
 
@@ -25,9 +23,9 @@ Output: Final data set is called "data_process"
 
 ## Python Notebooks
 
-### Strict Replication
+Replicating figure 2 and 7 from the paper. Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
 
-Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
+### Strict Replication
 
 "CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate
 
