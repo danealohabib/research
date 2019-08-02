@@ -33,7 +33,7 @@ Replicating figure 2 and 7 from the paper. Use [nbviewer](https://nbviewer.jupyt
 
 Everything in the notebook is documented
 
-####
+#### Pic
 
 The folder called "pic" has all of the figures in a png format.
 
