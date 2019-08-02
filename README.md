@@ -27,9 +27,9 @@ Replicating figure 2 and 7 from the paper. Use [nbviewer](https://nbviewer.jupyt
 
 ### Strict Replication
 
-"CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate
+"CogExt_Preprocessing_and_Inspection_V2.ipynb" is the final script. Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate. Data is also in my directory on the server
 
-"Cog_Preprocessing_Inspection_I.ipynb" is an earlier version. The data used for this analysis has some minor data quality issues. Use "data_processed" to completely replicate if you wish.
+"Cog_Preprocessing_Inspection_I.ipynb" is an earlier version. The data used for this analysis has some minor data quality issues. Use [data_processed](https://www.dropbox.com/s/t2p9emvgcqns9f3/data_processed.csv?dl=0) to completely replicate if you wish (also in the server under the same name).
 
 Everything in the notebook is documented
 
