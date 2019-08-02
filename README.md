@@ -39,6 +39,6 @@ The folder called "pic" has all of the figures in a png format.
 
 "CogExt_II__Using_SpacyForPhraseSeparation.ipynb" - Completed further analysis - exploring noun chunks using Spacy (python package)
 
-Turned each title into a group of "noun chunks" and then counts the unique ones in each year. For example "The Study" is likely to be repetitive, and so should be collapsed, it is also likely to occur in each year. Note that I did this before removing the stop-words, because stopwords communicate information about phrase boundaries.
+Turned each title into a group of "noun chunks" and then counts the unique ones in each year. For example "The Study" is likely to be repetitive, and so should be collapsed, it is also likely to occur in each year. Note that I did this before removing the stop-words, because stopwords communicate information about phrase boundaries. I used a quota of 10k titles for the above graph, per year.
 
 
