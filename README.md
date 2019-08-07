@@ -27,7 +27,7 @@ Output: Final data set is called "data_process"
 
 ## Python Notebooks
 
-Replicating figure 2 and 7. Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
+Figure 2 and 7. Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering the notebook.
 
 ### Strict Replication
 
