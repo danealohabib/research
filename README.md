@@ -1,4 +1,4 @@
-# Biomed titles 1946 - 2012 
+# Biomed Titles 1946 - 2012 
 
 Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering.
 
@@ -10,9 +10,9 @@ Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/
 
 ## Extensions
 
-Extension 1: biomed word2vec 
+Extension 1: biomed word2vec - Spacey + Clustering
 
-[Spacey + Clustering](https://github.com/danealohabib/research-MP/blob/master/CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL%20(1).ipynb) 
+Jupyter: [CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL](https://github.com/danealohabib/research-MP/blob/master/CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL%20(1).ipynb) 
 
 Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. Website to download biomedical NLP tools ([word2vec](http://bio.nlplab.org/))
 
