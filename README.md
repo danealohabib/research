@@ -1,12 +1,20 @@
 # Biomed titles 1946 - 2012 
 
-The final Jupyter Notebooks for the replication is called [CogExt_Preprocessing_and_Inspection_V2.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_Preprocessing_and_Inspection_V2.ipynb). 
+## Replication - Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering.
+
+Jupyter Notebooks for the replication is called [CogExt_Preprocessing_and_Inspection_V2.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_Preprocessing_and_Inspection_V2.ipynb). 
+
+## Extensions
+
+Using Spacey + Clustering - [link](https://github.com/danealohabib/research-MP/blob/master/CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL%20(1).ipynb) - everything is outlined in the notebook
+
+[CogExt_II__Using_SpacyForPhraseSeparation.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_II__Using_SpacyForPhraseSeparation.ipynb) - exploring noun chunks using Spacy (python package)
 
 Full information on the python notebooks is listed under the header `Python Notebooks`.
 
 ## Data Processing
 
-This section will show you the steps I took to process the data. 
+This section will show you the steps I took to process and create the data I used above.
 
 ### Convert Paper Titles to CSV
 The first step is the convert all of the paper titles into csv files. This is done by running the python file called `convert_to_csv`.
