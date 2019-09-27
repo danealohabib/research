@@ -2,7 +2,7 @@
 
 Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if github isn't rendering.
 
-## Strict Replication 
+## Replication 
 
 Jupyter Notebooks for the replication is called [CogExt_Preprocessing_and_Inspection_V2.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_Preprocessing_and_Inspection_V2.ipynb). 
 
@@ -16,9 +16,9 @@ Jupyter: [CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL](https
 
 Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. Website to download biomedical NLP tools ([word2vec](http://bio.nlplab.org/))
 
-Extension 2:
+Extension 2:  exploring noun chunks using Spacy (python package)
 
-[CogExt_II__Using_SpacyForPhraseSeparation.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_II__Using_SpacyForPhraseSeparation.ipynb) - exploring noun chunks using Spacy (python package)
+[CogExt_II__Using_SpacyForPhraseSeparation.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_II__Using_SpacyForPhraseSeparation.ipynb) 
 
 Turned each title into a group of "noun chunks" and then counts the unique ones in each year. For example "The Study" is likely to be repetitive, and so should be collapsed, it is also likely to occur in each year. Note that I did this before removing the stop-words, because stopwords communicate information about phrase boundaries. I used a quota of 10k titles for the above graph, per year.
 
