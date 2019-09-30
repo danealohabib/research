@@ -14,7 +14,9 @@ Extension 1: biomed word2vec - Spacey + Clustering
 
 Jupyter: [CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL](https://github.com/danealohabib/research-MP/blob/master/CogExt_IV__Using_SpacyForPhraseSeparation_WITH_CLUSTERING_FINAL%20(1).ipynb) 
 
-Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. Website to download biomedical NLP tools ([word2vec](http://bio.nlplab.org/))
+Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. 
+
+**Website to download biomedical NLP tools ([http://bio.nlplab.org/](http://bio.nlplab.org/))**
 
 Extension 2:  exploring noun chunks using Spacy (python package)
 
