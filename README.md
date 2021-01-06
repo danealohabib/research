@@ -18,7 +18,7 @@ The folder called `pic` has all of the figures in a png format.
 
 ### Extension 1: biomed word2vec - Spacey + Clustering
 
-Jupyter: [CogExt_clustering.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_III_clustering.ipynb) 
+Jupyter: [CogExt_clustering.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_clustering.ipynb) 
 
 Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. 
 
