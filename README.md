@@ -4,21 +4,21 @@ Use [nbviewer](https://nbviewer.jupyter.org/) to render the jupyter notebook if 
 
 ## Replication 
 
-Jupyter Notebooks for the replication is called [CogExt_I.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_I.ipynb). 
+Jupyter Notebooks for the replication is called [CogExt.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt.ipynb). 
 
-Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate (the name in the code is different, but it is the same data). Data is also in my directory on the server. 
+Uses the data labelled [data_process](https://www.dropbox.com/s/csibdzi9dl6nmls/data_process.zip?dl=0) to completely replicate. Data is also in my directory on the server. 
 
 The folder called `pic` has all of the figures in a png format.
 
 ### Earlier Version of Replication
 
-[CogExt.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt.ipynb) is the earlier version. The data used for this analysis has some minor data quality issues. Use [data_processed](https://www.dropbox.com/s/t2p9emvgcqns9f3/data_processed.csv?dl=0) to completely replicate if you wish (also in the server under the same name). 
+[CogExt_old.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_old.ipynb) is the earlier version. The data used for this analysis has some minor data quality issues. 
 
 ## Extensions
 
 ### Extension 1: biomed word2vec - Spacey + Clustering
 
-Jupyter: [CogExt_III_clustering.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_III_clustering.ipynb) 
+Jupyter: [CogExt_clustering.ipynb](https://github.com/danealohabib/research-MP/blob/master/CogExt_III_clustering.ipynb) 
 
 Uses spacy to segment the titles, then shoves each noun phrase into the biomed word2vec vector space. Umap dimensionality reduction is then used to get a 2D visualization. Note that after the GIF, there is a section that explains the noun-phrase methodology as well as  contains the code for the alternative chart showing the rise of unique noun-phrases over time. 
 
